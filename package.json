@@ -1,0 +1,28 @@
+{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de tarefas - Atividade Prática Avançada II",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "api",
+    "tarefas",
+    "nodejs",
+    "atividade-pratica"
+  ],
+  "author": "Seu Nome Aqui",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.4",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
